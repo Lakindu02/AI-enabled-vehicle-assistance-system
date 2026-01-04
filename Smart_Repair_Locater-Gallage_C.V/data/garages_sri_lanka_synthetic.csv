@@ -1,0 +1,101 @@
+garage_id,name,latitude,longitude,city,specializations,avg_rating,num_reviews,completion_rate,avg_completion_days,total_bays,available_bays,avg_hourly_rate,price_range,equipment_score,certified,years_in_business
+GAR001,Metro Garage Nugegoda,6.707503,79.855006,Nugegoda,general_repair,4.14,32,0.902,3.72,2,0,3824,mid_range,0.826,1,3
+GAR002,Modern Auto Works Colombo,6.880606,79.912249,Colombo,"ac_repair,electrical,engine_repair,transmission",4.46,179,0.904,2.63,8,4,4518,premium,0.807,0,26
+GAR003,Quick Motor Works Colombo,6.987164,79.867319,Colombo,suspension,3.82,54,0.899,2.78,5,4,2638,mid_range,0.722,1,28
+GAR004,Prime Auto House Colombo,6.976689,79.81576,Colombo,"body_work,electrical,paint_work",3.65,15,0.881,5.1,3,0,2886,budget,0.739,1,22
+GAR005,City Car Care Dehiwala,6.836023,79.966822,Dehiwala,"electrical,suspension,transmission",3.95,28,0.887,3.28,4,1,2925,mid_range,0.769,1,30
+GAR006,Modern Auto Works Moratuwa,6.780984,79.985078,Moratuwa,"body_work,suspension",4.2,15,0.871,3.66,7,1,4792,premium,0.727,0,8
+GAR007,Elite Service Center Colombo,6.982873,79.975274,Colombo,"ac_repair,brake_system,engine_repair,paint_work",3.8,24,0.898,6.11,4,4,1769,budget,0.76,1,5
+GAR008,City Auto Works Dehiwala,6.87506,79.872399,Dehiwala,"ac_repair,body_work,brake_system,paint_work",3.98,25,0.878,3.45,5,4,2761,mid_range,0.684,0,5
+GAR009,Western Auto Clinic Colombo,6.814486,79.999224,Colombo,"body_work,engine_repair,paint_work,suspension,transmission",3.86,59,0.9,3.19,6,3,3662,mid_range,0.731,1,25
+GAR010,Western Garage Colombo,6.916628,79.943936,Colombo,"ac_repair,brake_system,paint_work,suspension,transmission",4.4,130,0.91,5.5,3,2,1964,budget,0.735,1,20
+GAR011,Master Auto Clinic Moratuwa,6.73356,79.872596,Moratuwa,"body_work,electrical",3.92,41,0.888,4.98,5,4,2947,mid_range,0.69,1,29
+GAR012,Western Garage Maharagama,6.738517,79.895056,Maharagama,"brake_system,general_repair,paint_work",4.18,72,0.879,4.43,5,3,3681,mid_range,0.688,0,30
+GAR013,Western Repair Hub Kotte,6.894963,79.88762,Kotte,electrical,4.28,26,0.894,5.13,6,1,1500,budget,0.791,1,8
+GAR014,Auto Service Center Nugegoda,6.702157,79.941568,Nugegoda,body_work,3.77,37,0.896,5.77,7,3,3390,mid_range,0.768,1,28
+GAR015,Capital Repair Hub Moratuwa,6.917006,79.976477,Moratuwa,"ac_repair,brake_system",3.8,15,0.868,4.21,4,3,2666,budget,0.736,0,7
+GAR016,Union Auto Care Dehiwala,6.959151,79.810834,Dehiwala,brake_system,4.22,32,0.881,3.53,4,1,3149,mid_range,0.704,0,24
+GAR017,Reliable Service Center Moratuwa,6.742055,79.836698,Moratuwa,ac_repair,4.16,54,0.899,1.87,3,1,4803,premium,0.798,1,26
+GAR018,Express Motors Colombo,6.845692,79.842749,Colombo,"body_work,brake_system",3.85,21,0.875,7.83,7,6,2235,budget,0.74,0,13
+GAR019,Union Repair Hub Nugegoda,6.919152,79.956672,Nugegoda,"electrical,transmission",4.1,50,0.899,3.05,7,5,3800,premium,0.809,1,7
+GAR020,Master Auto Works Colombo,6.875253,79.90057,Colombo,"body_work,paint_work",4.05,48,0.892,6.71,6,0,2286,budget,0.692,1,28
+GAR021,Auto Auto House Kotte,6.870903,79.915784,Kotte,brake_system,4.08,118,0.907,4.7,5,5,4201,mid_range,0.68,1,22
+GAR022,Union Auto Clinic Nugegoda,6.771606,79.879157,Nugegoda,"body_work,electrical,paint_work,suspension",3.76,15,0.865,1.76,6,2,4860,premium,0.755,0,20
+GAR023,Metro Car Care Colombo,6.804703,79.813758,Colombo,"ac_repair,brake_system,engine_repair",3.9,15,0.879,3.06,6,5,3040,mid_range,0.827,1,18
+GAR024,Royal Garage Battaramulla,6.789814,79.932678,Battaramulla,"general_repair,paint_work,suspension",4.04,69,0.907,2.59,5,1,2391,budget,0.815,1,18
+GAR025,Prime Motors Nugegoda,6.955874,79.901082,Nugegoda,brake_system,4.23,68,0.899,5.78,5,1,1805,budget,0.684,1,27
+GAR026,Auto Auto Care Maharagama,6.865504,79.885537,Maharagama,engine_repair,4.16,37,0.899,5.44,7,6,2028,budget,0.762,1,18
+GAR027,Pro Motors Colombo,6.792478,79.979796,Colombo,"electrical,general_repair,suspension",4.45,153,0.923,2.83,5,4,2904,mid_range,0.783,1,4
+GAR028,City Garage Maharagama,6.977729,79.847347,Maharagama,"ac_repair,body_work,engine_repair,suspension",4.16,179,0.897,3.66,6,6,5378,premium,0.801,0,26
+GAR029,Reliable Service Center Nugegoda,6.814763,79.807745,Nugegoda,"ac_repair,suspension",3.88,22,0.876,2.94,4,1,4266,premium,0.739,0,10
+GAR030,Pro Auto Clinic Dehiwala,6.783581,79.813884,Dehiwala,"brake_system,general_repair,suspension",4.24,108,0.884,3.68,4,1,3507,mid_range,0.793,0,27
+GAR031,Capital Motor Works Nugegoda,6.995065,79.807651,Nugegoda,"brake_system,suspension,transmission",4.06,66,0.889,4.66,5,0,1872,budget,0.744,0,17
+GAR032,Western Service Center Nugegoda,6.700507,79.985115,Nugegoda,"brake_system,paint_work,suspension",4.14,95,0.902,3.46,4,4,3077,mid_range,0.674,1,30
+GAR033,Prime Auto Works Colombo,6.822518,79.88048,Colombo,"brake_system,electrical",3.91,45,0.883,2.29,7,0,4904,premium,0.799,0,22
+GAR034,Capital Car Care Colombo,6.763055,79.957152,Colombo,"ac_repair,general_repair,paint_work,suspension",3.89,40,0.881,5.3,3,2,3679,mid_range,0.748,0,17
+GAR035,Master Service Center Moratuwa,6.889882,79.867038,Moratuwa,"electrical,general_repair,paint_work",3.64,15,0.859,5.77,6,6,2506,budget,0.746,0,1
+GAR036,Capital Service Center Maharagama,6.836625,79.977227,Maharagama,"ac_repair,brake_system,general_repair,paint_work",4.35,86,0.889,3.62,5,1,3977,mid_range,0.753,0,21
+GAR037,Auto Auto Works Colombo,6.98739,79.903592,Colombo,"ac_repair,paint_work",3.85,15,0.868,4.85,9,5,4509,premium,0.784,0,5
+GAR038,Modern Auto Works Kotte,6.967428,79.92253,Kotte,"ac_repair,general_repair,paint_work,suspension",3.96,57,0.905,4.08,5,4,3264,mid_range,0.804,1,28
+GAR039,Modern Auto Clinic Moratuwa,6.771774,79.887975,Moratuwa,"suspension,transmission",4.0,15,0.884,3.04,6,5,4362,premium,0.821,1,11
+GAR040,Elite Auto Works Colombo,6.764186,79.882974,Colombo,"body_work,brake_system,electrical,paint_work",4.5,265,0.927,2.47,7,0,3800,premium,0.819,1,13
+GAR041,Royal Motor Works Kotte,6.789584,79.877997,Kotte,"ac_repair,electrical,engine_repair,general_repair,paint_work",3.86,15,0.883,2.56,6,6,3752,mid_range,0.793,1,14
+GAR042,Auto Motor Works Moratuwa,6.738288,79.924451,Moratuwa,"ac_repair,body_work,electrical,paint_work,suspension",3.85,35,0.888,2.49,7,3,4383,mid_range,0.77,1,28
+GAR043,Prime Motor Works Dehiwala,6.80125,79.975928,Dehiwala,"ac_repair,body_work,paint_work",4.56,257,0.912,5.52,5,5,2740,mid_range,0.696,0,24
+GAR044,Auto Service Center Colombo,6.987186,79.808052,Colombo,"body_work,engine_repair",4.26,31,0.887,1.5,6,1,1929,budget,0.717,0,8
+GAR045,Capital Auto House Moratuwa,6.776873,79.873779,Moratuwa,engine_repair,3.81,19,0.891,4.34,4,4,2953,budget,0.678,1,10
+GAR046,Modern Service Center Nugegoda,6.987452,79.879331,Nugegoda,electrical,4.11,83,0.917,2.82,6,6,4082,mid_range,0.751,1,4
+GAR047,Elite Auto Works Colombo,6.995153,79.956527,Colombo,"general_repair,paint_work,suspension,transmission",4.0,37,0.898,5.17,5,3,2328,budget,0.731,1,11
+GAR048,Modern Garage Kotte,6.890676,79.965741,Kotte,"ac_repair,brake_system,engine_repair,transmission",4.16,190,0.919,3.82,8,5,4567,mid_range,0.652,1,25
+GAR049,Royal Repair Hub Battaramulla,6.949219,79.817333,Battaramulla,"ac_repair,brake_system",4.02,42,0.884,4.12,6,1,2217,budget,0.695,0,11
+GAR050,Capital Auto Clinic Dehiwala,6.777506,79.855932,Dehiwala,"ac_repair,body_work,electrical,general_repair,paint_work",4.03,50,0.9,4.98,8,7,3950,mid_range,0.765,1,16
+GAR051,Modern Service Center Maharagama,6.727916,79.844319,Maharagama,"ac_repair,suspension,transmission",3.79,15,0.868,3.97,8,5,3874,mid_range,0.751,0,17
+GAR052,Quick Service Center Nugegoda,6.781275,79.850281,Nugegoda,"engine_repair,general_repair,paint_work",4.22,97,0.914,3.74,6,6,3774,mid_range,0.74,1,7
+GAR053,Metro Auto Clinic Moratuwa,6.7849,79.820105,Moratuwa,"engine_repair,suspension",4.35,58,0.907,6.02,4,0,2822,budget,0.751,1,10
+GAR054,City Repair Hub Kotte,6.866008,79.939483,Kotte,body_work,4.1,73,0.9,3.77,5,0,2339,budget,0.78,1,19
+GAR055,Quick Motor Works Colombo,6.958517,79.822817,Colombo,"body_work,brake_system,general_repair,paint_work",3.66,18,0.88,4.75,3,3,4079,mid_range,0.79,1,26
+GAR056,Western Motor Works Nugegoda,6.937222,79.845137,Nugegoda,"ac_repair,brake_system,general_repair,transmission",3.91,27,0.895,5.17,6,6,3538,mid_range,0.716,1,14
+GAR057,City Service Center Colombo,6.763308,79.932086,Colombo,"general_repair,paint_work",3.83,15,0.883,3.77,6,3,2465,budget,0.722,1,6
+GAR058,Modern Repair Hub Colombo,6.769443,79.941391,Colombo,electrical,4.03,39,0.884,2.83,7,6,2112,budget,0.732,0,30
+GAR059,Prime Garage Colombo,6.767443,79.829798,Colombo,body_work,3.86,15,0.884,5.03,6,2,3655,mid_range,0.824,1,6
+GAR060,Express Auto Clinic Dehiwala,6.840609,79.860818,Dehiwala,"ac_repair,body_work,electrical,general_repair,transmission",3.9,15,0.88,3.26,8,0,4789,premium,0.766,0,2
+GAR061,Capital Auto House Colombo,6.988573,79.967192,Colombo,transmission,4.39,60,0.888,6.04,8,4,2256,budget,0.74,0,19
+GAR062,Reliable Auto Care Colombo,6.875599,79.926957,Colombo,"ac_repair,brake_system,engine_repair,suspension",4.1,55,0.898,5.04,8,4,2339,budget,0.711,1,22
+GAR063,Auto Repair Hub Nugegoda,6.820136,79.9521,Nugegoda,suspension,4.47,114,0.902,5.05,5,4,4577,mid_range,0.682,0,9
+GAR064,Reliable Motor Works Battaramulla,6.700345,79.973873,Battaramulla,electrical,4.29,196,0.913,1.5,5,1,3080,mid_range,0.69,0,17
+GAR065,Royal Repair Hub Colombo,6.739304,79.857606,Colombo,body_work,3.91,16,0.884,5.14,5,4,3671,mid_range,0.844,1,21
+GAR066,Master Auto Care Colombo,6.822397,79.84494,Colombo,"electrical,engine_repair,paint_work,suspension",3.93,15,0.882,5.42,5,3,2840,mid_range,0.842,1,10
+GAR067,Royal Auto House Colombo,6.86538,79.876717,Colombo,"brake_system,electrical,engine_repair,general_repair,paint_work",3.94,15,0.869,2.09,4,2,3443,mid_range,0.812,1,30
+GAR068,Master Garage Battaramulla,6.873977,79.931988,Battaramulla,"ac_repair,brake_system,engine_repair,general_repair",4.06,34,0.895,2.72,5,5,3275,mid_range,0.781,1,18
+GAR069,Express Motors Colombo,6.814891,79.971203,Colombo,"ac_repair,brake_system,electrical",4.15,61,0.882,2.16,6,0,3856,mid_range,0.664,0,22
+GAR070,Quick Repair Hub Colombo,6.989606,79.866399,Colombo,general_repair,4.01,66,0.885,5.42,6,0,4276,mid_range,0.726,0,30
+GAR071,Modern Motor Works Moratuwa,6.990761,79.867712,Moratuwa,suspension,4.66,481,0.926,4.77,7,0,3376,mid_range,0.799,1,28
+GAR072,Prime Service Center Nugegoda,6.770431,79.93688,Nugegoda,brake_system,3.95,15,0.866,2.58,2,1,4029,mid_range,0.632,0,4
+GAR073,Elite Motors Colombo,6.78984,79.805789,Colombo,"electrical,general_repair,suspension",4.1,15,0.891,7.44,3,1,2901,budget,0.754,1,5
+GAR074,Union Service Center Colombo,6.882848,79.876509,Colombo,"ac_repair,electrical,engine_repair,suspension",3.73,15,0.854,1.52,5,2,3692,mid_range,0.718,0,9
+GAR075,Elite Auto House Nugegoda,6.747393,79.888346,Nugegoda,"brake_system,electrical,transmission",3.89,15,0.86,3.38,5,1,3683,mid_range,0.673,0,28
+GAR076,Modern Auto Clinic Dehiwala,6.807688,79.859174,Dehiwala,brake_system,4.18,21,0.879,4.2,2,2,1906,budget,0.745,0,9
+GAR077,Pro Service Center Maharagama,6.949852,79.980587,Maharagama,"electrical,general_repair,paint_work,suspension,transmission",3.87,22,0.878,6.36,3,0,3223,mid_range,0.66,0,9
+GAR078,Reliable Motors Malabe,6.893902,79.861787,Malabe,"ac_repair,body_work,engine_repair,general_repair,suspension",3.93,26,0.885,4.74,8,8,3444,mid_range,0.739,1,24
+GAR079,Royal Repair Hub Moratuwa,6.781758,79.832909,Moratuwa,"electrical,paint_work,suspension",3.85,17,0.872,2.73,5,4,2190,budget,0.605,0,3
+GAR080,Western Auto Care Dehiwala,6.937205,79.802784,Dehiwala,"ac_repair,electrical,suspension,transmission",4.32,259,0.92,7.69,6,0,3788,mid_range,0.766,1,27
+GAR081,Capital Service Center Nugegoda,6.982951,79.865601,Nugegoda,ac_repair,3.88,26,0.893,3.09,3,0,2697,mid_range,0.76,1,30
+GAR082,Quick Service Center Kotte,6.791309,79.898525,Kotte,"brake_system,electrical,engine_repair,general_repair,transmission",3.75,21,0.87,3.99,5,3,4344,mid_range,0.764,0,14
+GAR083,Modern Car Care Nugegoda,6.981716,79.855948,Nugegoda,"ac_repair,general_repair",3.94,24,0.896,2.17,7,5,5714,premium,0.837,1,8
+GAR084,Master Repair Hub Colombo,6.782764,79.993641,Colombo,electrical,3.66,17,0.867,2.32,4,1,3963,mid_range,0.815,0,21
+GAR085,Master Auto Works Kotte,6.936093,79.841041,Kotte,"electrical,general_repair",3.84,15,0.87,4.06,6,2,3204,mid_range,0.677,0,11
+GAR086,Prime Garage Battaramulla,6.743406,79.825998,Battaramulla,body_work,4.1,35,0.884,4.13,3,2,2204,budget,0.675,0,5
+GAR087,Express Auto Works Colombo,6.77961,79.825352,Colombo,paint_work,4.01,54,0.903,2.0,6,3,3550,mid_range,0.788,1,16
+GAR088,Pro Auto Works Moratuwa,6.983625,79.808673,Moratuwa,"ac_repair,body_work,general_repair",3.99,18,0.885,1.7,8,7,4342,premium,0.72,1,16
+GAR089,Quick Garage Colombo,6.724237,79.921659,Colombo,"electrical,general_repair,suspension",3.97,30,0.899,3.92,9,1,3819,mid_range,0.667,1,20
+GAR090,Royal Auto Works Maharagama,6.734324,79.930943,Maharagama,"ac_repair,brake_system",3.92,23,0.885,6.51,8,6,1956,budget,0.731,1,29
+GAR091,Prime Car Care Maharagama,6.793765,79.862505,Maharagama,"ac_repair,paint_work",4.06,34,0.908,1.5,5,5,5118,premium,0.882,1,3
+GAR092,Western Auto Works Dehiwala,6.739035,79.811996,Dehiwala,"brake_system,engine_repair,paint_work",4.15,77,0.889,4.1,4,4,3686,mid_range,0.69,0,28
+GAR093,City Repair Hub Colombo,6.73108,79.901483,Colombo,"paint_work,suspension",4.32,128,0.913,3.41,5,3,3669,mid_range,0.729,1,28
+GAR094,Capital Auto Works Battaramulla,6.992364,79.963685,Battaramulla,transmission,4.07,26,0.886,6.31,4,2,2416,budget,0.824,0,1
+GAR095,Union Motor Works Dehiwala,6.754422,79.82865,Dehiwala,engine_repair,4.23,112,0.913,1.76,7,6,2500,mid_range,0.7,1,24
+GAR096,Modern Car Care Dehiwala,6.802269,79.874011,Dehiwala,"body_work,brake_system,general_repair,paint_work,transmission",4.31,15,0.895,5.0,5,3,3663,mid_range,0.739,1,2
+GAR097,Western Auto Care Nugegoda,6.824255,79.843114,Nugegoda,"brake_system,engine_repair,paint_work",4.22,47,0.899,4.41,4,1,2761,mid_range,0.807,1,22
+GAR098,Prime Service Center Dehiwala,6.879797,79.801537,Dehiwala,"general_repair,transmission",4.53,49,0.904,4.31,6,1,2373,budget,0.762,1,11
+GAR099,Master Car Care Dehiwala,6.911101,79.900052,Dehiwala,brake_system,4.1,103,0.907,4.57,5,2,3536,mid_range,0.726,1,28
+GAR100,Express Auto Clinic Moratuwa,6.87202,79.9419,Moratuwa,brake_system,4.19,56,0.911,2.64,8,5,4638,premium,0.761,1,1
