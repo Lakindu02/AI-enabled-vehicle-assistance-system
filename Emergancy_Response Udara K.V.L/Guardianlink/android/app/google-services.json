@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "280142879390",
+    "firebase_url": "https://guardian-link-6bece-default-rtdb.firebaseio.com",
+    "project_id": "guardian-link-6bece",
+    "storage_bucket": "guardian-link-6bece.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280142879390:android:64798e6b0a0dd36456398f",
+        "android_client_info": {
+          "package_name": "com.guardianlink.guardian_link"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNWnqyYCWYIiNg5x5mFgyrxsorumC2Rfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
