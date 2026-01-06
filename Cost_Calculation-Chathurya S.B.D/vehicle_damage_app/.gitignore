@@ -43,10 +43,3 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 .env
-venv
-__pycache__
-.ipynb_checkpoints
-.DS_Store
-.idea
-.claude
-.env.example
