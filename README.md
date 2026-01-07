@@ -58,7 +58,7 @@ flutter doctor
 ### 2. Clone/Navigate to Project
 
 ```bash
-cd "/Users/kusalanithennakoon/Documents/research projects/gallage/flutter_app"
+cd "F:\Y4S1\Research\code\git\AI-enabled-vehicle-assistance-system\Smart_Repair_Locater-Gallage_C.V\flutter_app"
 ```
 
 ### 3. Install Dependencies
@@ -72,7 +72,7 @@ flutter pub get
 The app needs the FastAPI backend running. In a separate terminal:
 
 ```bash
-cd "/Users/kusalanithennakoon/Documents/research projects/gallage"
+cd "F:\Y4S1\Research\code\git\AI-enabled-vehicle-assistance-system\Smart_Repair_Locater-Gallage_C.V"
 python main.py
 ```
 
@@ -335,7 +335,7 @@ Potential features to add:
 
 For issues or questions:
 - Check the troubleshooting section above
-- Review backend API logs: `/Users/kusalanithennakoon/Documents/research projects/gallage/main.py`
+- Review backend API logs: `F:\Y4S1\Research\code\git\AI-enabled-vehicle-assistance-system\Smart_Repair_Locater-Gallage_C.V/main.py`
 - Check Flutter issues: `flutter doctor -v`
 
 ## License
