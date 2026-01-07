@@ -1,0 +1,222 @@
+{
+	"info": {
+		"name": "RoadResQ API",
+		"description": "Vehicle Damage Assessment & Garage Recommendation System API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "http://localhost:8000",
+			"type": "string"
+		}
+	],
+	"item": [
+		{
+			"name": "Health & Status",
+			"item": [
+				{
+					"name": "Root",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/",
+							"host": ["{{base_url}}"],
+							"path": [""]
+						},
+						"description": "Get API information and available endpoints"
+					}
+				},
+				{
+					"name": "Health Check",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/health",
+							"host": ["{{base_url}}"],
+							"path": ["health"]
+						},
+						"description": "Check API health status and model loading"
+					}
+				}
+			]
+		},
+		{
+			"name": "Damage Detection",
+			"item": [
+				{
+					"name": "Detect Damage from Image",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "image",
+									"type": "file",
+									"src": "",
+									"description": "Upload vehicle damage image (JPG/PNG)"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/detect-damage",
+							"host": ["{{base_url}}"],
+							"path": ["detect-damage"]
+						},
+						"description": "Upload an image and get damage classification (minor/moderate/severe) with confidence scores"
+					}
+				}
+			]
+		},
+		{
+			"name": "Garage Recommendations",
+			"item": [
+				{
+					"name": "Get Garage Recommendations",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "latitude",
+									"value": "6.9271",
+									"description": "User's latitude (Colombo example)",
+									"type": "text"
+								},
+								{
+									"key": "longitude",
+									"value": "79.8612",
+									"description": "User's longitude (Colombo example)",
+									"type": "text"
+								},
+								{
+									"key": "damage_type",
+									"value": "moderate",
+									"description": "Damage type: minor, moderate, or severe",
+									"type": "text"
+								},
+								{
+									"key": "max_results",
+									"value": "5",
+									"description": "Number of recommendations (1-20)",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/recommend-garages",
+							"host": ["{{base_url}}"],
+							"path": ["recommend-garages"]
+						},
+						"description": "Get ML-based garage recommendations based on location and damage type"
+					}
+				},
+				{
+					"name": "Get Recommendations - Dehiwala",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "latitude",
+									"value": "6.8561",
+									"description": "Dehiwala latitude",
+									"type": "text"
+								},
+								{
+									"key": "longitude",
+									"value": "79.8642",
+									"description": "Dehiwala longitude",
+									"type": "text"
+								},
+								{
+									"key": "damage_type",
+									"value": "severe",
+									"type": "text"
+								},
+								{
+									"key": "max_results",
+									"value": "3",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/recommend-garages",
+							"host": ["{{base_url}}"],
+							"path": ["recommend-garages"]
+						},
+						"description": "Example for Dehiwala location with severe damage"
+					}
+				}
+			]
+		},
+		{
+			"name": "Complete Assessment",
+			"item": [
+				{
+					"name": "Complete Assessment Pipeline",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "image",
+									"type": "file",
+									"src": "",
+									"description": "Vehicle damage image"
+								},
+								{
+									"key": "latitude",
+									"value": "6.9271",
+									"description": "User's latitude",
+									"type": "text"
+								},
+								{
+									"key": "longitude",
+									"value": "79.8612",
+									"description": "User's longitude",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/complete-assessment",
+							"host": ["{{base_url}}"],
+							"path": ["complete-assessment"]
+						},
+						"description": "Run complete end-to-end assessment: damage detection + Gemini analysis + garage recommendations + report generation"
+					}
+				}
+			]
+		},
+		{
+			"name": "Reports",
+			"item": [
+				{
+					"name": "Download Report",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/download-report/damage_report_20241119_103000.txt",
+							"host": ["{{base_url}}"],
+							"path": ["download-report", "damage_report_20241119_103000.txt"]
+						},
+						"description": "Download a generated report (replace filename with actual report name)"
+					}
+				}
+			]
+		}
+	]
+}
